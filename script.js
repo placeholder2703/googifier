@@ -5,7 +5,7 @@ const convert = document.getElementById("convert");
 const copy = document.getElementById("copy");
 
 convert.addEventListener("click", () => {
-	output.value = input.value.replace(/[aeiou]/gi, ":goog:");
+	output.value = input.value.replace(/[aeiouy]/gi, ":goog:");
 });
 
 copy.addEventListener("click", async () => {
